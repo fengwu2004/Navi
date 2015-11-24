@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MyVCTLA.h"
+#import "MyVCTLB.h"
 
 @interface ViewController ()
 
@@ -15,8 +17,22 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+	
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	MyVCTLA* vctla = [[MyVCTLA alloc] init];
+	
+	MyVCTLB* vctlb = [[MyVCTLB alloc] init];
+	
+	self.viewControllers = [[NSArray alloc] initWithObjects:vctla, vctlb, nil];
+	
+	UITabBarItem *item1 = [[UITabBarItem alloc] initWithTitle:@"A" image:nil tag:1];
+
+	UITabBarItem *item2 = [[UITabBarItem alloc] initWithTitle:@"B" image:nil tag:2];
+
+	[[self.viewControllers objectAtIndex:0] setTabBarItem: item1];
+	
+	[[self.viewControllers objectAtIndex:1] setTabBarItem: item2];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -13,26 +13,11 @@
 		CE5FA8BD1BE0CE780039797B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5FA8BB1BE0CE780039797B /* Main.storyboard */; };
 		CE5FA8BF1BE0CE780039797B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5FA8BE1BE0CE780039797B /* Assets.xcassets */; };
 		CE5FA8C21BE0CE780039797B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5FA8C01BE0CE780039797B /* LaunchScreen.storyboard */; };
-		CE5FA8CD1BE0CE780039797B /* NaviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FA8CC1BE0CE780039797B /* NaviTests.m */; };
-		CE5FA8D81BE0CE780039797B /* NaviUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FA8D71BE0CE780039797B /* NaviUITests.m */; };
+		CE5FA8E61BE0D19B0039797B /* MyVCTLA.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FA8E51BE0D19B0039797B /* MyVCTLA.m */; settings = {ASSET_TAGS = (); }; };
+		CE5FA8E91BE0D2480039797B /* MyVCTLB.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FA8E81BE0D2480039797B /* MyVCTLB.m */; settings = {ASSET_TAGS = (); }; };
+		CED68DC41BE1C61E002E147D /* MyVCTLA.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED68DC21BE1C61E002E147D /* MyVCTLA.xib */; settings = {ASSET_TAGS = (); }; };
+		CED68DC51BE1C61E002E147D /* MyVCTLB.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED68DC31BE1C61E002E147D /* MyVCTLB.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE5FA8C91BE0CE780039797B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE5FA8A71BE0CE780039797B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE5FA8AE1BE0CE780039797B;
-			remoteInfo = Navi;
-		};
-		CE5FA8D41BE0CE780039797B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE5FA8A71BE0CE780039797B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE5FA8AE1BE0CE780039797B;
-			remoteInfo = Navi;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE5FA8AF1BE0CE780039797B /* Navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +30,16 @@
 		CE5FA8BE1BE0CE780039797B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5FA8C11BE0CE780039797B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5FA8C31BE0CE780039797B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE5FA8C81BE0CE780039797B /* NaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE5FA8CC1BE0CE780039797B /* NaviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviTests.m; sourceTree = "<group>"; };
-		CE5FA8CE1BE0CE780039797B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE5FA8D31BE0CE780039797B /* NaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE5FA8D71BE0CE780039797B /* NaviUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviUITests.m; sourceTree = "<group>"; };
-		CE5FA8D91BE0CE780039797B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5FA8E51BE0D19B0039797B /* MyVCTLA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVCTLA.m; sourceTree = "<group>"; };
+		CE5FA8E71BE0D1A20039797B /* MyVCTLA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVCTLA.h; sourceTree = "<group>"; };
+		CE5FA8E81BE0D2480039797B /* MyVCTLB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVCTLB.m; sourceTree = "<group>"; };
+		CE5FA8EA1BE0D24F0039797B /* MyVCTLB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVCTLB.h; sourceTree = "<group>"; };
+		CED68DC21BE1C61E002E147D /* MyVCTLA.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyVCTLA.xib; sourceTree = "<group>"; };
+		CED68DC31BE1C61E002E147D /* MyVCTLB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyVCTLB.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE5FA8AC1BE0CE780039797B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5FA8C51BE0CE780039797B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5FA8D01BE0CE780039797B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				CE5FA8B11BE0CE780039797B /* Navi */,
-				CE5FA8CB1BE0CE780039797B /* NaviTests */,
-				CE5FA8D61BE0CE780039797B /* NaviUITests */,
 				CE5FA8B01BE0CE780039797B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				CE5FA8AF1BE0CE780039797B /* Navi.app */,
-				CE5FA8C81BE0CE780039797B /* NaviTests.xctest */,
-				CE5FA8D31BE0CE780039797B /* NaviUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +77,10 @@
 				CE5FA8C01BE0CE780039797B /* LaunchScreen.storyboard */,
 				CE5FA8C31BE0CE780039797B /* Info.plist */,
 				CE5FA8B21BE0CE780039797B /* Supporting Files */,
+				CE5FA8E51BE0D19B0039797B /* MyVCTLA.m */,
+				CE5FA8E71BE0D1A20039797B /* MyVCTLA.h */,
+				CE5FA8E81BE0D2480039797B /* MyVCTLB.m */,
+				CE5FA8EA1BE0D24F0039797B /* MyVCTLB.h */,
 			);
 			path = Navi;
 			sourceTree = "<group>";
@@ -118,26 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				CE5FA8B31BE0CE780039797B /* main.m */,
+				CED68DC21BE1C61E002E147D /* MyVCTLA.xib */,
+				CED68DC31BE1C61E002E147D /* MyVCTLB.xib */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CE5FA8CB1BE0CE780039797B /* NaviTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE5FA8CC1BE0CE780039797B /* NaviTests.m */,
-				CE5FA8CE1BE0CE780039797B /* Info.plist */,
-			);
-			path = NaviTests;
-			sourceTree = "<group>";
-		};
-		CE5FA8D61BE0CE780039797B /* NaviUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE5FA8D71BE0CE780039797B /* NaviUITests.m */,
-				CE5FA8D91BE0CE780039797B /* Info.plist */,
-			);
-			path = NaviUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,42 +115,6 @@
 			productReference = CE5FA8AF1BE0CE780039797B /* Navi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE5FA8C71BE0CE780039797B /* NaviTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE5FA8DF1BE0CE780039797B /* Build configuration list for PBXNativeTarget "NaviTests" */;
-			buildPhases = (
-				CE5FA8C41BE0CE780039797B /* Sources */,
-				CE5FA8C51BE0CE780039797B /* Frameworks */,
-				CE5FA8C61BE0CE780039797B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE5FA8CA1BE0CE780039797B /* PBXTargetDependency */,
-			);
-			name = NaviTests;
-			productName = NaviTests;
-			productReference = CE5FA8C81BE0CE780039797B /* NaviTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CE5FA8D21BE0CE780039797B /* NaviUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE5FA8E21BE0CE780039797B /* Build configuration list for PBXNativeTarget "NaviUITests" */;
-			buildPhases = (
-				CE5FA8CF1BE0CE780039797B /* Sources */,
-				CE5FA8D01BE0CE780039797B /* Frameworks */,
-				CE5FA8D11BE0CE780039797B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE5FA8D51BE0CE780039797B /* PBXTargetDependency */,
-			);
-			name = NaviUITests;
-			productName = NaviUITests;
-			productReference = CE5FA8D31BE0CE780039797B /* NaviUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,14 +126,6 @@
 				TargetAttributes = {
 					CE5FA8AE1BE0CE780039797B = {
 						CreatedOnToolsVersion = 7.0;
-					};
-					CE5FA8C71BE0CE780039797B = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = CE5FA8AE1BE0CE780039797B;
-					};
-					CE5FA8D21BE0CE780039797B = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = CE5FA8AE1BE0CE780039797B;
 					};
 				};
 			};
@@ -232,8 +143,6 @@
 			projectRoot = "";
 			targets = (
 				CE5FA8AE1BE0CE780039797B /* Navi */,
-				CE5FA8C71BE0CE780039797B /* NaviTests */,
-				CE5FA8D21BE0CE780039797B /* NaviUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,23 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED68DC51BE1C61E002E147D /* MyVCTLB.xib in Resources */,
+				CED68DC41BE1C61E002E147D /* MyVCTLA.xib in Resources */,
 				CE5FA8C21BE0CE780039797B /* LaunchScreen.storyboard in Resources */,
 				CE5FA8BF1BE0CE780039797B /* Assets.xcassets in Resources */,
 				CE5FA8BD1BE0CE780039797B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5FA8C61BE0CE780039797B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5FA8D11BE0CE780039797B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,42 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5FA8E61BE0D19B0039797B /* MyVCTLA.m in Sources */,
 				CE5FA8BA1BE0CE780039797B /* ViewController.m in Sources */,
 				CE5FA8B71BE0CE780039797B /* AppDelegate.m in Sources */,
 				CE5FA8B41BE0CE780039797B /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5FA8C41BE0CE780039797B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5FA8CD1BE0CE780039797B /* NaviTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5FA8CF1BE0CE780039797B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5FA8D81BE0CE780039797B /* NaviUITests.m in Sources */,
+				CE5FA8E91BE0D2480039797B /* MyVCTLB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CE5FA8CA1BE0CE780039797B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE5FA8AE1BE0CE780039797B /* Navi */;
-			targetProxy = CE5FA8C91BE0CE780039797B /* PBXContainerItemProxy */;
-		};
-		CE5FA8D51BE0CE780039797B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE5FA8AE1BE0CE780039797B /* Navi */;
-			targetProxy = CE5FA8D41BE0CE780039797B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE5FA8BB1BE0CE780039797B /* Main.storyboard */ = {
@@ -431,54 +301,6 @@
 			};
 			name = Release;
 		};
-		CE5FA8E01BE0CE780039797B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NaviTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sss.NaviTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navi.app/Navi";
-			};
-			name = Debug;
-		};
-		CE5FA8E11BE0CE780039797B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NaviTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sss.NaviTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navi.app/Navi";
-			};
-			name = Release;
-		};
-		CE5FA8E31BE0CE780039797B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NaviUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sss.NaviUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Navi;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		CE5FA8E41BE0CE780039797B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NaviUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sss.NaviUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Navi;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,22 +320,7 @@
 				CE5FA8DE1BE0CE780039797B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CE5FA8DF1BE0CE780039797B /* Build configuration list for PBXNativeTarget "NaviTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE5FA8E01BE0CE780039797B /* Debug */,
-				CE5FA8E11BE0CE780039797B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CE5FA8E21BE0CE780039797B /* Build configuration list for PBXNativeTarget "NaviUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE5FA8E31BE0CE780039797B /* Debug */,
-				CE5FA8E41BE0CE780039797B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
